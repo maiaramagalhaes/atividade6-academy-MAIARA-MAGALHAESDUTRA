@@ -9,9 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
     "cypress": "^13.8.1",
     "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
   }
 }
